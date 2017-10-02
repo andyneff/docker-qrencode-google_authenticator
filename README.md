@@ -9,7 +9,9 @@ container as read-only and print out the QR code associated with it
 
 # Using just docker
 
+```
 docker run -it --rm andyneff/docker-qrencode-google_authenticator
+```
 
 # Options
 
