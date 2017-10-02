@@ -7,3 +7,4 @@ services:
     image: andyneff/qrencode_google_authenticator
     volumes:
       - ~${USER}/.google_authenticator:/key/.google_authenticator:ro
+    network_mode: "none"
